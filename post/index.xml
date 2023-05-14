@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Liang&#39;s Blog</title>
     <link>https://liang512.github.io/post/</link>
     <description>Recent content in Posts on Liang&#39;s Blog</description>
+    <image>
+      <title>Liang&#39;s Blog</title>
+      <url>https://liang512.github.io/papermod-cover.png</url>
+      <link>https://liang512.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 10 May 2023 21:56:19 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 May 2023 14:58:50 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录一个关于代理的小坑</title>
+      <link>https://liang512.github.io/post/bugterminalproxy/</link>
+      <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/bugterminalproxy/</guid>
+      <description>耗费我好长时间555</description>
+    </item>
+    
+    <item>
+      <title>关于《死亡诗社》</title>
+      <link>https://liang512.github.io/post/deadpoetssociety/</link>
+      <pubDate>Sat, 13 May 2023 09:01:41 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/deadpoetssociety/</guid>
+      <description>Carpe diem</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://liang512.github.io/post/first/</link>
+      <pubDate>Thu, 11 May 2023 08:48:40 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/first/</guid>
+      <description>This is my first blog. I&amp;rsquo;ve wanted to create a blog for a long time, but I didn&amp;rsquo;t realize it due to laziness. In this blog, I will share and record my life using English. Hope i can keep going.
+Well, now, I&amp;rsquo;m off to write the patent.</description>
+    </item>
+    
     <item>
       <title>Test</title>
       <link>https://liang512.github.io/post/test/</link>
@@ -23,7 +54,7 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liang512.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
     </item>
     
     <item>
@@ -32,8 +63,7 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liang512.github.io/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+      <description>A brief description of Hugo Shortcodes</description>
     </item>
     
     <item>
@@ -42,7 +72,7 @@
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liang512.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+      <description>Lorem Ipsum Dolor Si Amet</description>
     </item>
     
     <item>
@@ -51,7 +81,7 @@
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liang512.github.io/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <description>A brief guide to setup KaTeX</description>
     </item>
     
   </channel>
