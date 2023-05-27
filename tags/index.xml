@@ -10,7 +10,17 @@
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 May 2023 09:01:41 +0800</lastBuildDate><atom:link href="https://liang512.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 23 May 2023 21:23:23 +0800</lastBuildDate><atom:link href="https://liang512.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math</title>
+      <link>https://liang512.github.io/tags/math/</link>
+      <pubDate>Tue, 23 May 2023 21:23:23 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/tags/math/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://liang512.github.io/tags/life/</link>
@@ -26,15 +36,6 @@
       <pubDate>Sat, 13 May 2023 09:01:41 +0800</pubDate>
       
       <guid>https://liang512.github.io/tags/poetry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Math</title>
-      <link>https://liang512.github.io/tags/math/</link>
-      <pubDate>Thu, 11 May 2023 08:48:40 +0800</pubDate>
-      
-      <guid>https://liang512.github.io/tags/math/</guid>
       <description></description>
     </item>
     

@@ -9,11 +9,12 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://liang512.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://liang512.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>https://liang512.github.io/post/</link>
-      <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
+      <pubDate>Tue, 23 May 2023 21:23:23 +0800</pubDate>
       
       <guid>https://liang512.github.io/post/</guid>
       <description></description>

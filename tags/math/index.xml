@@ -10,7 +10,17 @@
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 May 2023 08:48:40 +0800</lastBuildDate><atom:link href="https://liang512.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 23 May 2023 21:23:23 +0800</lastBuildDate><atom:link href="https://liang512.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Mathematical Thinking Week2</title>
+      <link>https://liang512.github.io/post/mathematical_thinking_week2/</link>
+      <pubDate>Tue, 23 May 2023 21:23:23 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/mathematical_thinking_week2/</guid>
+      <description>Implication and Equivalence</description>
+    </item>
+    
     <item>
       <title>First</title>
       <link>https://liang512.github.io/post/first/</link>

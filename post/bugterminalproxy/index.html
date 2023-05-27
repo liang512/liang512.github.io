@@ -55,7 +55,25 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="记录一个关于代理的小坑" />
+</noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script><meta property="og:title" content="记录一个关于代理的小坑" />
 <meta property="og:description" content="耗费我好长时间555" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://liang512.github.io/post/bugterminalproxy/" /><meta property="og:image" content="https://liang512.github.io/papermod-cover.png"/><meta property="article:section" content="post" />
@@ -285,6 +303,11 @@ echo &#34;plugins+=(zsh-osx-autoproxy)&#34; | tee -a .zshrc
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://liang512.github.io/post/mathematical_thinking_week2/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Introduction to Mathematical Thinking Week2</span>
+  </a>
   <a class="next" href="https://liang512.github.io/post/deadpoetssociety/">
     <span class="title">Next »</span>
     <br>
