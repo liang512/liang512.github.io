@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jun 2023 16:15:02 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 14:58:50 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sanitizable Encryption</title>
+      <link>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</link>
+      <pubDate>Mon, 24 Jul 2023 14:58:50 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</guid>
+      <description>记录最近看到的一个新的概念：Sanitizable Encryption</description>
+    </item>
+    
     <item>
       <title>Papers</title>
       <link>https://liang512.github.io/post/papers/</link>
@@ -28,6 +37,15 @@
       
       <guid>https://liang512.github.io/post/mathematical_thinking_week2/</guid>
       <description>Implication and Equivalence</description>
+    </item>
+    
+    <item>
+      <title>GoodWritingSentence</title>
+      <link>https://liang512.github.io/post/goodwritingsentence/</link>
+      <pubDate>Mon, 22 May 2023 09:44:22 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/goodwritingsentence/</guid>
+      <description>论文写作积累</description>
     </item>
     
     <item>

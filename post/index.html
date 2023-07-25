@@ -198,6 +198,21 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Sanitizable Encryption
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Intro 这篇文章考虑加密者（Data Owner,DO）恶意的情况时，如何保证数据的隐私性。
+我们首先要清楚恶意的DO会做什么事情：
+嵌入错误的访问策略让无权限的用户解密； 将密钥泄露给无权限的用户； Sanitizable Access Control System for Secure Cloud Storage Against Malicious Data Publishers 1 对以上的1，增加一个可信的Sanitizer在密文上执行check操作，检查是否嵌入了正确的访问策略，其实相当于执行了一遍ABE的解密操作，将与访问策略$M$关联的密文组件与随机选择的属性集合$S\in M$对应的密钥（这个密钥并不是authority生成，而是sanitizer按照密钥形式仿造的，仅为了验证）配对,通过验证则为正确的密文，此时的密文解密需要恢复出$e(g,g)^{\alpha s}$； 通过上述访问策略验证后，还需考虑DO直接将加密密钥泄露给无权限的用户。可信的sanitizer重新生成一个密文(访问策略秘密值为$s\prime$)，然后将两个密文聚合在一起，此时的密文解密需要恢复出$e(g,g)^{\alpha (s&#43;s’)}$； 疑问： 对以上的1，随机选择的属性集合$S$满足访问策略是否可以确定密文就正确： 例如DO声称访问策略为M=“A”，但是在加密时使用错误的访问策略$M’$=“A or B”，在check时随机选择的属性集合为${ A }$，也可以通过验证，但是此时携带有属性B的私钥的用户也可以解密。并未解决第一个问题。
+Sanitizable Cross-System Authorization for Secure Communication in Intelligent Connected Vehicle 2 对IBE的密文，可以解决第一个问题 A Sanitizable Access Control With Policy-Protection for Vehicular Social Networks 3 访问策略是AND-Gate，可以解决第一个问题 Verifiable Outsourced Attribute-Based Encryption Scheme for Cloud-Assisted Mobile E-health System 4 将外包加密与这个场景结合，服务器需要将访问策略嵌入密文，sanitizer检测服务器输出的密文是否正确，这个应用场景比上面那个更贴切生活一些。但是check密文时仍然存在和第一篇一样的问题。 Conclusion Check的本质思想就是执行了一遍解密操作，并未将消息解密出来 Sanitizing的关键思想就是给密文重新绑定另一个密文，另一个密文组件一定是可信生成的 Reference W....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-07-24 14:58:50 +0800 +0800'>July 24, 2023</span>&nbsp;·&nbsp;Liang Li</footer>
+  <a class="entry-link" aria-label="post link to Sanitizable Encryption" href="https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Papers
     </h2>
   </header>
@@ -231,11 +246,23 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>GoodWritingSentence
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In Introduction or Related Work A long line of constructions 1, 2 operates by … There is no way to … Our scheme resorts to (technique) as … to … (implement some functions) … by harnessing the power of (technology). The starting point of this paper is that while the recent solutions consider and solve the bare-bones … problem in its simplest form, there are several desirable features that they fail to achieve....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-22 09:44:22 +0800 +0800'>May 22, 2023</span>&nbsp;·&nbsp;Liang</footer>
+  <a class="entry-link" aria-label="post link to GoodWritingSentence" href="https://liang512.github.io/post/goodwritingsentence/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>记录一个关于代理的小坑
     </h2>
   </header>
   <div class="entry-content">
-    <p>When I running the git push command, I get error:
+    <p>When I run the git push command, I get the error:
 1 2 3 $ git push origin main kex_exchange identification: Connection closed by remote host connection closed by 20.205.243.166 port 22 Next, I checked the ssh key I found the following output:
 1 2 3 $ ssh -T github.com kex_exchange identification: Connection closed by remote host connection closed by 20.205.243.166 port 22 I tried many solutions including changing the port to 443, turning off the VPN, and regenerating the ssh key, none of which worked....</p>
   </div>
@@ -258,19 +285,12 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
   <footer class="entry-footer"><span title='2023-05-13 09:01:41 +0800 +0800'>May 13, 2023</span>&nbsp;·&nbsp;李梁</footer>
   <a class="entry-link" aria-label="post link to 关于《死亡诗社》" href="https://liang512.github.io/post/deadpoetssociety/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>First
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is my first blog. I’ve wanted to create a blog for a long time, but I didn’t realize it due to laziness. In this blog, I will share and record my life using English. Hope i can keep going.
-Well, now, I’m off to write the patent.</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-11 08:48:40 +0800 +0800'>May 11, 2023</span>&nbsp;·&nbsp;Liang Li</footer>
-  <a class="entry-link" aria-label="post link to First" href="https://liang512.github.io/post/first/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://liang512.github.io/post/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">
