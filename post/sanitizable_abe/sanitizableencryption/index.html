@@ -272,10 +272,10 @@
 <li>将密钥泄露给无权限的用户；</li>
 </ol>
 <h2 id="cite-sanitizable-access-control-system-for-secure-cloud-storage-against-malicious-data-publishers-susilo2021cite"><cite> Sanitizable Access Control System for Secure Cloud Storage Against Malicious Data Publishers <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite><a hidden class="anchor" aria-hidden="true" href="#cite-sanitizable-access-control-system-for-secure-cloud-storage-against-malicious-data-publishers-susilo2021cite">#</a></h2>
+<p><img loading="lazy" src="../image.png" alt="check"  />
+</p>
 <ol>
-<li>对以上的1，增加一个可信的Sanitizer在密文上执行check操作，检查是否嵌入了正确的访问策略，其实相当于执行了一遍ABE的解密操作，将与访问策略$M$关联的密文组件与<strong>随机选择</strong>的属性集合$S\in M$对应的密钥（这个密钥并不是authority生成，而是sanitizer按照密钥形式仿造的，仅为了验证）配对,通过验证则为正确的密文，此时的密文解密需要恢复出$e(g,g)^{\alpha s}$；
-<img loading="lazy" src="/post/sanitizable_abe/SanitizableEncryption/image-1.png" alt="check"  />
-</li>
+<li>对以上的1，增加一个可信的Sanitizer在密文上执行check操作，检查是否嵌入了正确的访问策略，其实相当于执行了一遍ABE的解密操作，将与访问策略$M$关联的密文组件与<strong>随机选择</strong>的属性集合$S\in M$对应的密钥（这个密钥并不是authority生成，而是sanitizer按照密钥形式仿造的，仅为了验证）配对,通过验证则为正确的密文，此时的密文解密需要恢复出$e(g,g)^{\alpha s}$；</li>
 <li>通过上述访问策略验证后，还需考虑DO直接将加密密钥泄露给无权限的用户。可信的sanitizer重新生成一个密文(访问策略秘密值为$s\prime$)，然后将两个密文聚合在一起，此时的密文解密需要恢复出$e(g,g)^{\alpha (s+s&rsquo;)}$；</li>
 </ol>
 <p><strong>疑问：</strong>
