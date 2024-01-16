@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Add a Peer Node to an Organization</title>
+      <link>https://liang512.github.io/post/hyperledgerfabric/addpeer/</link>
+      <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/hyperledgerfabric/addpeer/</guid>
+      <description>Add a peer node to Org1. Using the test network of Hyperledger Ledger v2.2.10</description>
+    </item>
+    
+    <item>
       <title>记录一个关于代理的小坑</title>
       <link>https://liang512.github.io/post/bugterminalproxy/</link>
       <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
