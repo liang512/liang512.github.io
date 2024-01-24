@@ -224,8 +224,8 @@ Sanitizable Cross-System Authorization for Secure Communication in Intelligent C
 缺点：每次匹配均需进行两次pairing操作以检查用户权限；在 GR 中，密钥机构需要周期性地上线执行$ReKeyGen$算法，即使是在RL为空时？（作者没有考虑这一点）。
 思考：学习到了撤销机制的实现方法：维护撤销用户列表和版本号。
 📝 Note: 写文章思路：先写出一个基础方案，之后进行扩展，本文在基础匹配方案上扩展了用户撤销机制。先写SLR，然后针对 SLR 中RL的存储开销问题，提出GR，让系统定期清空RL，引入版本号。
-ABE Registered Attribute-Based Encryption (RABE) size of CRS quadratic in L time of registration linear in L—-slow size of mpk, hdk and time of enc, dec polylogarithmically with L
-Main Contribution: resolve leakage of master secret key (msk) problem....</p>
+ABE Attribute-Based Encryption with Publicly Verifiable Outsourced Decryption Transform算法输出的不是ElGamal形式的密文，而是把中间计算过程中的配对值输出。 验证者通过 sampling technique 随机选择pairing results进行验证。 Achieving public verification by combining sampling technique and game theory.
+Multi-Keyword Searchable and Verifiable Attribute-Based Encryption Over Cloud Data 只支持合取的关键字查询；需要公布一个关键字集合之间的映射；使用签名验证密文的complete； 是否可以做多关键字的检索 without bilinear pairing ?...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2023-06-04 16:15:02 &#43;0800 &#43;0800&#39;&gt;June 4, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang</footer>
   <a class="entry-link" aria-label="post link to Papers" href="https://liang512.github.io/post/papers/"></a>
@@ -250,10 +250,10 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
     </h2>
   </header>
   <div class="entry-content">
-    <p>In Introduction or Related Work A long line of constructions 1, 2 operates by … There is no way to … Our scheme resorts to (technique) as … to … (implement some functions) … by harnessing the power of (technology). The starting point of this paper is that while the recent solutions consider and solve the bare-bones … problem in its simplest form, there are several desirable features that they fail to achieve....</p>
+    <p>Introduction or Related Work A long line of constructions 1, 2 operates by … There is no way to … Our scheme resorts to (technique) as … to … (implement some functions) … by harnessing the power of (technology). The starting point of this paper is that while the recent solutions consider and solve the bare-bones … problem in its simplest form, there are several desirable features that they fail to achieve....</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2023-05-22 09:44:22 &#43;0800 &#43;0800&#39;&gt;May 22, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang</footer>
-  <a class="entry-link" aria-label="post link to GoodWritingSentence" href="https://liang512.github.io/post/goodwritingsentence/"></a>
+  <a class="entry-link" aria-label="post link to GoodWritingSentence" href="https://liang512.github.io/post/research/goodwritingsentence/"></a>
 </article>
 
 <article class="post-entry"> 
