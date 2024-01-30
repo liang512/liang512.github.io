@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.121.2"><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.122.0"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="google-site-verification" content="Tk9DAaVzE7wtMQwkKGXK_w7aUhqyYEGYTpCPkuq2EeA" />
@@ -224,6 +224,55 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>太原一日
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Plan A-1 09:20 会师 09:30 太原南站出发-&gt;天美新天地 打车20min 09:50 天美新天地 13:00 天美新天地-&gt;双塔公园 打车15min 13:20 双塔公园 (2h) 进塔：淡季（11月1日—次年3月31日）9:00—17:00
+不进塔可以早点去晋商博物院
+15:20 双塔公园 -&gt; 晋商博物院 打车16min
+15:40 晋商博物院 逛到闭馆 17:00 -&gt; 山西饭店
+打车10min 步行25min：穿过柳巷，文瀛公园 17:30 山西饭店 开吃！
+19:20 ‼️ 最晚19:30出发 山西饭店-&gt;太原南站 打车16min
+19:40 到太原南
+Plan A-2 09:20 会师 09:30 太原南站出发-&gt;天美新天地 打车20min 09:50 天美新天地 13:00 天美新天地 -&gt; 晋商博物院 打车20min 13:20 晋商博物院 (2h) 15:20 晋商博物院 -&gt; 双塔公园 打车16min 15:40 双塔公园 逛到闭馆 17:00 -&gt; 山西饭店 17:30 山西饭店 开吃！...</p>
+  </div>
+  <footer class="entry-footer">&lt;span title=&#39;2024-01-30 21:33:52 &#43;0800 &#43;0800&#39;&gt;January 30, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
+  <a class="entry-link" aria-label="post link to 太原一日" href="https://liang512.github.io/post/travel/20240203_taiyuan/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Add a Peer Node to an Organization
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Generate crypto material for new peer Modify the script test-network/organizations/fabric-ca/registerEnroll.sh to add the configuration of peer1:
+infoln &#34;Registering peer1&#34; set -x fabric-ca-client register --caname ca-org1 --id.name peer1 --id.secret peer1pw --id.type peer --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null infoln &#34;Generating the peer1 msp&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp --csr.hosts peer1.org1.example.com --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null cp ${PWD}/organizations/peerOrganizations/org1.example.com/msp/config.yaml ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/config.yaml infoln &#34;Generating the peer1-tls certificates&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1....</p>
+  </div>
+  <footer class="entry-footer">&lt;span title=&#39;2024-01-28 21:33:52 &#43;0800 &#43;0800&#39;&gt;January 28, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
+  <a class="entry-link" aria-label="post link to Add a Peer Node to an Organization" href="https://liang512.github.io/post/hyperledgerfabric/addpeer/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Scheme
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1 Attribute vector $v$ -&gt; $g^v$ Policy vector $x$ -&gt; $rx$, where $r\leftarrow Z_p$ Verify $g^{v\cdot rx}=g^0$ System Model Requester is semi-honest, which means that they honestly perform protocol but may attempt to learn the privacy of other users.
+Worker may claim the honest CS doesn’t return correct matching tasks. 想要申请自己不满足任务需求的任务，栽赃服务器返回了错误的结果； keyword; collude
+Server：为了节省算力返回错误的匹配结果;篡改密文
+public verifiable outsourced ABE: Worker 拒绝任务后可通过proof验证 Server进行了正确匹配；
+Verifiability: 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：
+对向量$v=(v_0,v_1,v_2)$: Authority授权密钥时声称向量对应位置的commitment。如$AU_0$计算$Com(v_0)=g^{v_0}h^{r_0}$，最后将$Coms=(Com(v_0), Com(v_1), Com(v_2))$发送到区块链存储。 对向量$x(x_0,x_1,x_2)$: 利用Two-party secret sharing，首先Requester对$x$进行两方的加法秘密共享$x_0 = x_0^1&#43;x_0^2$… 验证：$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=Com(0)$ 忽略了随机数r ，$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=g^{v\cdot x}h^{\sum \limits_{i=0}^n r_i\cdot x_i}=g^0\cdot h^{{\sum \limits_{i=0}^n r_i\cdot x_i}}$ 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：...</p>
+  </div>
+  <footer class="entry-footer">&lt;span title=&#39;2024-01-24 10:39:25 &#43;0800 &#43;0800&#39;&gt;January 24, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to Scheme" href="https://liang512.github.io/post/research/scheme/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Sanitizable Encryption
     </h2>
   </header>
@@ -268,45 +317,6 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2023-05-23 21:23:23 &#43;0800 &#43;0800&#39;&gt;May 23, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to Introduction to Mathematical Thinking Week2" href="https://liang512.github.io/post/mathematical_thinking_week2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>GoodWritingSentence
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction or Related Work A long line of constructions 1, 2 operates by … There is no way to … Our scheme resorts to (technique) as … to … (implement some functions) … by harnessing the power of (technology). The starting point of this paper is that while the recent solutions consider and solve the bare-bones … problem in its simplest form, there are several desirable features that they fail to achieve....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-22 09:44:22 &#43;0800 &#43;0800&#39;&gt;May 22, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang</footer>
-  <a class="entry-link" aria-label="post link to GoodWritingSentence" href="https://liang512.github.io/post/research/goodwritingsentence/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Add a Peer Node to an Organization
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>1. Generate crypto material for new peer Modify the script test-network/organizations/fabric-ca/registerEnroll.sh to add the configuration of peer1:
-infoln &#34;Registering peer1&#34; set -x fabric-ca-client register --caname ca-org1 --id.name peer1 --id.secret peer1pw --id.type peer --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null infoln &#34;Generating the peer1 msp&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp --csr.hosts peer1.org1.example.com --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null cp ${PWD}/organizations/peerOrganizations/org1.example.com/msp/config.yaml ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/config.yaml infoln &#34;Generating the peer1-tls certificates&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-13 14:58:50 &#43;0800 &#43;0800&#39;&gt;May 13, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
-  <a class="entry-link" aria-label="post link to Add a Peer Node to an Organization" href="https://liang512.github.io/post/hyperledgerfabric/addpeer/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>记录一个关于代理的小坑
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>When I run the git push command, I get the error:
-1 2 3 $ git push origin main kex_exchange identification: Connection closed by remote host connection closed by 20.205.243.166 port 22 Next, I checked the ssh key I found the following output:
-1 2 3 $ ssh -T github.com kex_exchange identification: Connection closed by remote host connection closed by 20.205.243.166 port 22 I tried many solutions including changing the port to 443, turning off the VPN, and regenerating the ssh key, none of which worked....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-13 14:58:50 &#43;0800 &#43;0800&#39;&gt;May 13, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
-  <a class="entry-link" aria-label="post link to 记录一个关于代理的小坑" href="https://liang512.github.io/post/bugterminalproxy/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

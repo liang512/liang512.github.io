@@ -11,7 +11,39 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jul 2023 14:58:50 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jan 2024 21:33:52 +0800</lastBuildDate><atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>太原一日</title>
+      <link>https://liang512.github.io/post/travel/20240203_taiyuan/</link>
+      <pubDate>Tue, 30 Jan 2024 21:33:52 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/travel/20240203_taiyuan/</guid>
+      <description>太原一日预定行程</description>
+    </item>
+    
+    <item>
+      <title>Add a Peer Node to an Organization</title>
+      <link>https://liang512.github.io/post/hyperledgerfabric/addpeer/</link>
+      <pubDate>Sun, 28 Jan 2024 21:33:52 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/hyperledgerfabric/addpeer/</guid>
+      <description>Add a peer node to Org1. Using the test network of Hyperledger Ledger v2.2.10</description>
+    </item>
+    
+    <item>
+      <title>Scheme</title>
+      <link>https://liang512.github.io/post/research/scheme/</link>
+      <pubDate>Wed, 24 Jan 2024 10:39:25 +0800</pubDate>
+      
+      <guid>https://liang512.github.io/post/research/scheme/</guid>
+      <description>1 Attribute vector $v$ -&amp;gt; $g^v$ Policy vector $x$ -&amp;gt; $rx$, where $r\leftarrow Z_p$ Verify $g^{v\cdot rx}=g^0$ System Model Requester is semi-honest, which means that they honestly perform protocol but may attempt to learn the privacy of other users.
+Worker may claim the honest CS doesn&amp;rsquo;t return correct matching tasks. 想要申请自己不满足任务需求的任务，栽赃服务器返回了错误的结果； keyword; collude
+Server：为了节省算力返回错误的匹配结果;篡改密文
+public verifiable outsourced ABE: Worker 拒绝任务后可通过proof验证 Server进行了正确匹配；
+Verifiability: 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：
+对向量$v=(v_0,v_1,v_2)$: Authority授权密钥时声称向量对应位置的commitment。如$AU_0$计算$Com(v_0)=g^{v_0}h^{r_0}$，最后将$Coms=(Com(v_0), Com(v_1), Com(v_2))$发送到区块链存储。 对向量$x(x_0,x_1,x_2)$: 利用Two-party secret sharing，首先Requester对$x$进行两方的加法秘密共享$x_0 = x_0^1+x_0^2$&amp;hellip; 验证：$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=Com(0)$ 忽略了随机数r ，$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=g^{v\cdot x}h^{\sum \limits_{i=0}^n r_i\cdot x_i}=g^0\cdot h^{{\sum \limits_{i=0}^n r_i\cdot x_i}}$ 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：</description>
+    </item>
+    
     <item>
       <title>Sanitizable Encryption</title>
       <link>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</link>
@@ -46,15 +78,6 @@
       
       <guid>https://liang512.github.io/post/research/goodwritingsentence/</guid>
       <description>论文写作积累</description>
-    </item>
-    
-    <item>
-      <title>Add a Peer Node to an Organization</title>
-      <link>https://liang512.github.io/post/hyperledgerfabric/addpeer/</link>
-      <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
-      
-      <guid>https://liang512.github.io/post/hyperledgerfabric/addpeer/</guid>
-      <description>Add a peer node to Org1. Using the test network of Hyperledger Ledger v2.2.10</description>
     </item>
     
     <item>
