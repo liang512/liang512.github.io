@@ -75,10 +75,7 @@
           throwOnError : false
         });
     });
-</script>
-  
-
-<meta property="og:title" content="Posts" />
+</script><meta property="og:title" content="Posts" />
 <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://liang512.github.io/post/" /><meta property="og:image" content="https://liang512.github.io/papermod-cover.png"/>
@@ -204,11 +201,25 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Blockchain-based access control
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE; IEEE TRANSACTIONS ON SERVICES COMPUTING&#39;22
+Summary: This paper first proposed a KP-ABE scheme with Multiple Authorities and Flexible Revocation called MAFR-KP-ABE. After that, the authors combine MAFR-KP-ABE and blockchain to achieve paid data sharing access control. Technique:
+System model: Hybrid storage Access control: KP-ABE; DU paid the fee to DO on Ethereum to achieve access permission Threat model: Privacy: ✅ ❌ attributes set DO encrypts data using a symmetric encryption algorithm and further encrypts the symmetric key with ABE algorithm. DO uploads data ciphertext and key ciphertext to CSP, and then uploads data sharing information on Ethereum (attributes set, hash value of the shared data, location of the shared data in CSP and information about fees). DU pays DO on Ethereum based on data sharing information. Then, DU request decryption keys from Attribute Authorities (AAs). Each AA verifies the payment transaction and sends the decryption key to the DU. DU searches the data according to data sharing information. Anyone can request ciphertext from CSP. </p>
+  </div>
+  <footer class="entry-footer">&lt;span title=&#39;2024-09-22 18:54:01 &#43;0800 &#43;0800&#39;&gt;September 22, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;LiangLi</footer>
+  <a class="entry-link" aria-label="post link to Blockchain-based access control" href="https://liang512.github.io/post/research/blockchainaccess_abe/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>和涛涛太原一日游
     </h2>
   </header>
   <div class="entry-content">
-    <p>不要再下雪了！求求了！
+    <p> 不要再下雪了！求求了！
 Plan A-1 北美逛衣服吃午饭→天美玩游戏看非遗→晋商博物院→山西饭店
 09:20 和涛涛会师
 15:40 晋商博物院 逛到闭馆 17:00 -&gt; 山西饭店
@@ -222,7 +233,7 @@ Plan A-2 09:20 和涛涛会师 09:30 太原南站出发-&gt;天美新天地 打�
 打车10min 步行25min：穿过柳巷，文瀛公园 17:30 山西饭店 开吃！
 19:20 ‼️ 最晚19:30出发 山西饭店-&gt;太原南站 打车16min
 19:40 到太原南
-Plan A-3 09:20 和涛涛会师 09:30 太原南站出发-&gt;天美新天地 打车20min 09:50 天美新天地 13:00 天美新天地 -&gt; 晋商博物院 打车20min 13:20 晋商博物院 (2h) 15:20 晋商博物院 -&gt; 双塔公园 打车16min 15:40 双塔公园 逛到闭馆 17:00 -&gt; 山西饭店 17:30 山西饭店 开吃！...</p>
+...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2024-01-30 21:33:52 &#43;0800 &#43;0800&#39;&gt;January 30, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to 和涛涛太原一日游" href="https://liang512.github.io/post/travel/20240203_taiyuan/"></a>
@@ -235,7 +246,8 @@ Plan A-3 09:20 和涛涛会师 09:30 太原南站出发-&gt;天美新天地 打�
   </header>
   <div class="entry-content">
     <p>1. Generate crypto material for new peer Modify the script test-network/organizations/fabric-ca/registerEnroll.sh to add the configuration of peer1:
-infoln &#34;Registering peer1&#34; set -x fabric-ca-client register --caname ca-org1 --id.name peer1 --id.secret peer1pw --id.type peer --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null infoln &#34;Generating the peer1 msp&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp --csr.hosts peer1.org1.example.com --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null cp ${PWD}/organizations/peerOrganizations/org1.example.com/msp/config.yaml ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/config.yaml infoln &#34;Generating the peer1-tls certificates&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1....</p>
+infoln &#34;Registering peer1&#34; set -x fabric-ca-client register --caname ca-org1 --id.name peer1 --id.secret peer1pw --id.type peer --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null infoln &#34;Generating the peer1 msp&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp --csr.hosts peer1.org1.example.com --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null cp ${PWD}/organizations/peerOrganizations/org1.example.com/msp/config.yaml ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/config.yaml infoln &#34;Generating the peer1-tls certificates&#34; set -x fabric-ca-client enroll -u https://peer1:peer1pw@localhost:7054 --caname ca-org1 -M ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls --enrollment.profile tls --csr.hosts peer1.org1.example.com --csr.hosts localhost --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem { set &#43;x; } 2&gt;/dev/null cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/tlscacerts/* ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/ca.crt cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/signcerts/* ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.crt cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/keystore/* ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.key cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/tlscacerts/* ${PWD}/organizations/peerOrganizations/org1.example.com/msp/tlscacerts/ca.crt cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/tlscacerts/* ${PWD}/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem cp ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/cacerts/* ${PWD}/organizations/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem Then, we can see that the MSP files of peer1 are generated in test-network/organizations/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp. These files identify the identity of peer1.
+...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2024-01-28 21:33:52 &#43;0800 &#43;0800&#39;&gt;January 28, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to Add a Peer Node to an Organization" href="https://liang512.github.io/post/hyperledgerfabric/addpeer/"></a>
@@ -252,7 +264,8 @@ Worker may claim the honest CS doesn’t return correct matching tasks. 想要�
 Server：为了节省算力返回错误的匹配结果;篡改密文
 public verifiable outsourced ABE: Worker 拒绝任务后可通过proof验证 Server进行了正确匹配；
 Verifiability: 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：
-对向量$v=(v_0,v_1,v_2)$: Authority授权密钥时声称向量对应位置的commitment。如$AU_0$计算$Com(v_0)=g^{v_0}h^{r_0}$，最后将$Coms=(Com(v_0), Com(v_1), Com(v_2))$发送到区块链存储。 对向量$x(x_0,x_1,x_2)$: 利用Two-party secret sharing，首先Requester对$x$进行两方的加法秘密共享$x_0 = x_0^1&#43;x_0^2$… 验证：$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=Com(0)$ 忽略了随机数r ，$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=g^{v\cdot x}h^{\sum \limits_{i=0}^n r_i\cdot x_i}=g^0\cdot h^{{\sum \limits_{i=0}^n r_i\cdot x_i}}$ 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：...</p>
+对向量$v=(v_0,v_1,v_2)$: Authority授权密钥时声称向量对应位置的commitment。如$AU_0$计算$Com(v_0)=g^{v_0}h^{r_0}$，最后将$Coms=(Com(v_0), Com(v_1), Com(v_2))$发送到区块链存储。 对向量$x(x_0,x_1,x_2)$: 利用Two-party secret sharing，首先Requester对$x$进行两方的加法秘密共享$x_0 = x_0^1&#43;x_0^2$… 验证：$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=Com(0)$ 忽略了随机数r ，$Com(v_0,r_0)^{x_0^1}\cdot Com(v_0,r_0)^{x_0^2}=Com(v_0\cdot x_0,r_0\cdot x_0)$ $\prod \limits_{i=0}^2 Com(v_i x_i)=g^{v\cdot x}h^{\sum \limits_{i=0}^n r_i\cdot x_i}=g^0\cdot h^{{\sum \limits_{i=0}^n r_i\cdot x_i}}$ 对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：
+...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2024-01-24 10:39:25 &#43;0800 &#43;0800&#39;&gt;January 24, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Theme PaperMod</footer>
   <a class="entry-link" aria-label="post link to Scheme" href="https://liang512.github.io/post/research/scheme/"></a>
@@ -267,7 +280,7 @@ Verifiability: 对于Worker是否满足Requester制定的访问策略，可将�
     <p>Intro 这篇文章考虑加密者（Data Owner,DO）恶意的情况时，如何保证数据的隐私性。
 我们首先要清楚恶意的DO会做什么事情：
 嵌入错误的访问策略让无权限的用户解密； 将密钥泄露给无权限的用户； Sanitizable Access Control System for Secure Cloud Storage Against Malicious Data Publishers 1 对以上的1，增加一个可信的Sanitizer在密文上执行check操作，检查是否嵌入了正确的访问策略，其实相当于执行了一遍ABE的解密操作，将与访问策略$M$关联的密文组件与随机选择的属性集合$S\in M$对应的密钥（这个密钥并不是authority生成，而是sanitizer按照密钥形式仿造的，仅为了验证）配对,通过验证则为正确的密文，此时的密文解密需要恢复出$e(g,g)^{\alpha s}$； 通过上述访问策略验证后，还需考虑DO直接将加密密钥泄露给无权限的用户。可信的sanitizer重新生成一个密文(访问策略秘密值为$s\prime$)，然后将两个密文聚合在一起，此时的密文解密需要恢复出$e(g,g)^{\alpha (s&#43;s’)}$； 疑问： 对以上的1，随机选择的属性集合$S$满足访问策略是否可以确定密文就正确： 例如DO声称访问策略为M=“A”，但是在加密时使用错误的访问策略$M’$=“A or B”，在check时随机选择的属性集合为${ A }$，也可以通过验证，但是此时携带有属性B的私钥的用户也可以解密。并未解决第一个问题。
-Sanitizable Cross-System Authorization for Secure Communication in Intelligent Connected Vehicle 2 对IBE的密文，可以解决第一个问题 A Sanitizable Access Control With Policy-Protection for Vehicular Social Networks 3 访问策略是AND-Gate，可以解决第一个问题 Verifiable Outsourced Attribute-Based Encryption Scheme for Cloud-Assisted Mobile E-health System 4 将外包加密与这个场景结合，服务器需要将访问策略嵌入密文，sanitizer检测服务器输出的密文是否正确，这个应用场景比上面那个更贴切生活一些。但是check密文时仍然存在和第一篇一样的问题。 Conclusion Check的本质思想就是执行了一遍解密操作，并未将消息解密出来 Sanitizing的关键思想就是给密文重新绑定另一个密文，另一个密文组件一定是可信生成的 Reference W....</p>
+Sanitizable Cross-System Authorization for Secure Communication in Intelligent Connected Vehicle 2 对IBE的密文，可以解决第一个问题 A Sanitizable Access Control With Policy-Protection for Vehicular Social Networks 3 访问策略是AND-Gate，可以解决第一个问题 Verifiable Outsourced Attribute-Based Encryption Scheme for Cloud-Assisted Mobile E-health System 4 将外包加密与这个场景结合，服务器需要将访问策略嵌入密文，sanitizer检测服务器输出的密文是否正确，这个应用场景比上面那个更贴切生活一些。但是check密文时仍然存在和第一篇一样的问题。 ...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2023-07-24 14:58:50 &#43;0800 &#43;0800&#39;&gt;July 24, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to Sanitizable Encryption" href="https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/"></a>
@@ -287,23 +300,11 @@ Sanitizable Cross-System Authorization for Secure Communication in Intelligent C
 思考：学习到了撤销机制的实现方法：维护撤销用户列表和版本号。
 📝 Note: 写文章思路：先写出一个基础方案，之后进行扩展，本文在基础匹配方案上扩展了用户撤销机制。先写SLR，然后针对 SLR 中RL的存储开销问题，提出GR，让系统定期清空RL，引入版本号。
 ABE Attribute-Based Encryption with Publicly Verifiable Outsourced Decryption Transform算法输出的不是ElGamal形式的密文，而是把中间计算过程中的配对值输出。 验证者通过 sampling technique 随机选择pairing results进行验证。 Achieving public verification by combining sampling technique and game theory.
-Multi-Keyword Searchable and Verifiable Attribute-Based Encryption Over Cloud Data 只支持合取的关键字查询；需要公布一个关键字集合之间的映射；使用签名验证密文的complete； 是否可以做多关键字的检索 without bilinear pairing ?...</p>
+Multi-Keyword Searchable and Verifiable Attribute-Based Encryption Over Cloud Data 只支持合取的关键字查询；需要公布一个关键字集合之间的映射；使用签名验证密文的complete； 是否可以做多关键字的检索 without bilinear pairing ?
+...</p>
   </div>
   <footer class="entry-footer">&lt;span title=&#39;2023-06-04 16:15:02 &#43;0800 &#43;0800&#39;&gt;June 4, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang</footer>
   <a class="entry-link" aria-label="post link to Papers" href="https://liang512.github.io/post/papers/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Introduction to Mathematical Thinking Week2
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Implication The implication is important in mathematics. $\phi$ implies $\psi$ is denoted as $\phi\implies\psi$, that means the truth of $\psi$ follows from the truth of $\phi$. And $\phi$ is called antecedent and $\psi$ is consequent. The truth table of $\phi\implies\psi$ as follows:
-$\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth and F denotes the false. A true conclusion from a true assumption, so the first row is true....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-23 21:23:23 &#43;0800 &#43;0800&#39;&gt;May 23, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;Liang Li</footer>
-  <a class="entry-link" aria-label="post link to Introduction to Mathematical Thinking Week2" href="https://liang512.github.io/post/mathematical_thinking_week2/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
