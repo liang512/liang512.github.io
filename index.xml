@@ -9,14 +9,14 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.134.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 18:54:01 +0800</lastBuildDate><atom:link href="https://liang512.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 18:54:01 +0800</lastBuildDate>
+    <atom:link href="https://liang512.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain-based access control</title>
       <link>https://liang512.github.io/post/research/blockchainaccess_abe/</link>
       <pubDate>Sun, 22 Sep 2024 18:54:01 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/research/blockchainaccess_abe/</guid>
       <description>&lt;h1 id=&#34;blockchain-based-multi-authority-fine-grained-access-control-system-with-flexible-revocation&#34;&gt;Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -68,30 +68,17 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
 &lt;p&gt;Hao Guo, Member, IEEE, Wanxin Li*, Member, IEEE, Mark Nejad, Member, IEEE, and Chien-Chung Shen, Member, IEEE
 IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT 2022&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>和涛涛太原一日游</title>
-      <link>https://liang512.github.io/post/travel/20240203_taiyuan/</link>
-      <pubDate>Tue, 30 Jan 2024 21:33:52 +0800</pubDate>
-      
-      <guid>https://liang512.github.io/post/travel/20240203_taiyuan/</guid>
-      <description>记录第一次出游</description>
-    </item>
-    
     <item>
       <title>Add a Peer Node to an Organization</title>
       <link>https://liang512.github.io/post/hyperledgerfabric/addpeer/</link>
       <pubDate>Sun, 28 Jan 2024 21:33:52 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/hyperledgerfabric/addpeer/</guid>
       <description>Add a peer node to Org1. Using the test network of Hyperledger Ledger v2.2.10</description>
     </item>
-    
     <item>
       <title>Scheme</title>
       <link>https://liang512.github.io/post/research/scheme/</link>
       <pubDate>Wed, 24 Jan 2024 10:39:25 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/research/scheme/</guid>
       <description>&lt;h1 id=&#34;1&#34;&gt;1&lt;/h1&gt;
 &lt;ul&gt;
@@ -132,105 +119,83 @@ IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT 2022&lt;/p&gt;</description>
 &lt;li&gt;
 &lt;p&gt;对于Worker是否满足Requester制定的访问策略，可将双方的属性向量（任务访问策略向量）秘密共享or使用同态commitment：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sanitizable Encryption</title>
       <link>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</link>
       <pubDate>Mon, 24 Jul 2023 14:58:50 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</guid>
       <description>记录最近看到的一个新的概念：Sanitizable Encryption</description>
     </item>
-    
     <item>
       <title>Papers</title>
       <link>https://liang512.github.io/post/papers/</link>
       <pubDate>Sun, 04 Jun 2023 16:15:02 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/papers/</guid>
       <description>论文阅读记录</description>
     </item>
-    
     <item>
       <title>Introduction to Mathematical Thinking Week2</title>
       <link>https://liang512.github.io/post/mathematical_thinking_week2/</link>
       <pubDate>Tue, 23 May 2023 21:23:23 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/mathematical_thinking_week2/</guid>
       <description>Implication and Equivalence</description>
     </item>
-    
     <item>
       <title>GoodWritingSentence</title>
       <link>https://liang512.github.io/post/research/goodwritingsentence/</link>
       <pubDate>Mon, 22 May 2023 09:44:22 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/research/goodwritingsentence/</guid>
       <description>论文写作积累</description>
     </item>
-    
     <item>
       <title>记录一个关于代理的小坑</title>
       <link>https://liang512.github.io/post/bugterminalproxy/</link>
       <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/bugterminalproxy/</guid>
       <description>耗费我好长时间555</description>
     </item>
-    
     <item>
       <title>关于《死亡诗社》</title>
       <link>https://liang512.github.io/post/deadpoetssociety/</link>
       <pubDate>Sat, 13 May 2023 09:01:41 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/deadpoetssociety/</guid>
       <description>Carpe diem</description>
     </item>
-    
     <item>
       <title>Friends</title>
       <link>https://liang512.github.io/friends/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://liang512.github.io/friends/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://yangjucai.github.io/&#34;&gt;Jucai Yang&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>First</title>
       <link>https://liang512.github.io/post/first/</link>
       <pubDate>Thu, 11 May 2023 08:48:40 +0800</pubDate>
-      
       <guid>https://liang512.github.io/post/first/</guid>
       <description>&lt;p&gt;This is my first blog. I&amp;rsquo;ve wanted to create a blog for a long time, but I didn&amp;rsquo;t realize it due to laziness. In this blog, I will share and record my life using English. Hope i can keep going.&lt;/p&gt;
 &lt;p&gt;Well, now, I&amp;rsquo;m off to write the patent.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://liang512.github.io/about/</link>
       <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://liang512.github.io/about/</guid>
       <description>About me</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>https://liang512.github.io/contact/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://liang512.github.io/contact/</guid>
       <description>Hugo, the world&amp;#39;s fastest framework for building websites</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://liang512.github.io/post/blockchain24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://liang512.github.io/post/blockchain24/</guid>
       <description>&lt;h1 id=&#34;1-intro&#34;&gt;1. Intro&lt;/h1&gt;
 &lt;p&gt;Hi, everyone. I&amp;rsquo;m Liang Li. It’s really a great pleasure to be here and I am very happy to introduce our paper: &lt;strong&gt;Bilateral Secure and Decentralized Crowdsourcing Task Matching Atop Consortium Blockchain.&lt;/strong&gt; The co-authors include Haiqin Wu&amp;hellip;&lt;/p&gt;
@@ -238,20 +203,15 @@ IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT 2022&lt;/p&gt;</description>
 &lt;p&gt;First of all, we review what is crowdsourcing.
 Crowdsourcing relies on numerous people working collaboratively to solve complex problems. For example, a company wanting to collect weather data in Shanghai can recruit individuals to report weather conditions from various districts. This approach is cost-effective, fast, and creative compared to traditional outsourcing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://liang512.github.io/post/thestoryofthestone/idea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://liang512.github.io/post/thestoryofthestone/idea/</guid>
       <description>&lt;p&gt;红楼梦第二十六回：
 颦儿才貌世应希，独报幽芳出绣闺；
 呜咽一声犹未了，落花满地鸟惊飞。
 写人美竟能如此清新脱俗，做个注解倒显得俗气&lt;/p&gt;</description>
     </item>
-    
-    
-    
   </channel>
 </rss>

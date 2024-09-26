@@ -5,14 +5,13 @@
 	<meta name="generator" content="Hugo 0.134.3"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="google-site-verification" content="Tk9DAaVzE7wtMQwkKGXK_w7aUhqyYEGYTpCPkuq2EeA" />
 <meta name="robots" content="index, follow">
 <title>Liang&#39;s Blog</title>
 <meta name="keywords" content="Blog, Portfolio, PaperMod">
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Liang">
 <link rel="canonical" href="https://liang512.github.io/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://liang512.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://liang512.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://liang512.github.io/favicon-32x32.png">
@@ -40,7 +39,7 @@
                 --secondary: rgb(155, 156, 157);
                 --tertiary: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
+                --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
             }
@@ -59,32 +58,15 @@
         }
 
     </style>
-</noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          
-          
-          delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
-              {left: '\\(', right: '\\)', display: false},
-              {left: '\\[', right: '\\]', display: true}
-          ],
-          
-          throwOnError : false
-        });
-    });
-</script><meta property="og:title" content="" />
+</noscript><meta property="og:title" content="" />
 <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://liang512.github.io/" /><meta property="og:image" content="https://liang512.github.io/papermod-cover.png"/>
+<meta property="og:url" content="https://liang512.github.io/" />
+<meta property="og:image" content="https://liang512.github.io/papermod-cover.png" />
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://liang512.github.io/papermod-cover.png"/>
 
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://liang512.github.io/papermod-cover.png" />
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"/>
 
@@ -140,8 +122,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -188,34 +168,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Introduction to Mathematical Thinking Week2
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Implication The implication is important in mathematics. $\phi$ implies $\psi$ is denoted as $\phi\implies\psi$, that means the truth of $\psi$ follows from the truth of $\phi$. And $\phi$ is called antecedent and $\psi$ is consequent. The truth table of $\phi\implies\psi$ as follows:
-$\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth and F denotes the false. A true conclusion from a true assumption, so the first row is true. If that implication is true, that means $\psi$ would have to be T if $\phi$ is T. So we cannot have $\phi$ is T and $\psi$ is F if $\phi\implies\psi$ is T. Hence $\phi\implies\psi$ must be F. We can look at “$\phi$ does not imply $\psi$” ($\phi\nRightarrow\psi$) that is even through $\phi$ is T, $\psi$ is nevertheless F. So $\phi\nRightarrow\psi$ is T if and only if $\phi$ is T and $\psi$ is F. In all other circumstances, $\phi\nRightarrow\psi$ is F, which means $\phi\implies\psi$ is T. So, the third and fourth rows are T. 📝 Note: The implication involves causality. For example, “$\sqrt{2}$ is irrational” does not imply “$1&#43;1=2$”, because this two statements has no relationship, they are independent of each other.
-...</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-23 21:23:23 &#43;0800 &#43;0800&#39;&gt;May 23, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Liang Li</footer>
-  <a class="entry-link" aria-label="post link to Introduction to Mathematical Thinking Week2" href="https://liang512.github.io/post/mathematical_thinking_week2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>GoodWritingSentence
+    <h2 class="entry-hint-parent">GoodWritingSentence
     </h2>
   </header>
   <div class="entry-content">
     <p>Introduction or Related Work A long line of constructions 1, 2 operates by … There is no way to … Our scheme resorts to (technique) as … to … (implement some functions) … by harnessing the power of (technology). The starting point of this paper is that while the recent solutions consider and solve the bare-bones … problem in its simplest form, there are several desirable features that they fail to achieve. This makes … inherently vulnerable to … attacks, …, which bridges together the recent advancements of blockchain and cryptographic techniques. 强调重要性 it is of paramount importance to 技术赋能 … is a new way of viewing … which opens up a much larger world of possibilities for …. The enhanced functionality and flexibility provided by … is very appealing for many practical applications. 因果 due to in order to owing to attribute to ascribe to 缩写 w.r.t. : with reference to / with respect to / with regards to. i.e.: a shortening of the Latin expression id est, which translates to “that is” e.g.: for example
 ...</p>
   </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-22 09:44:22 &#43;0800 &#43;0800&#39;&gt;May 22, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Liang</footer>
+  <footer class="entry-footer"><span title='2023-05-22 09:44:22 +0800 +0800'>May 22, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Liang</footer>
   <a class="entry-link" aria-label="post link to GoodWritingSentence" href="https://liang512.github.io/post/research/goodwritingsentence/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>记录一个关于代理的小坑
+    <h2 class="entry-hint-parent">记录一个关于代理的小坑
     </h2>
   </header>
   <div class="entry-content">
@@ -224,13 +190,13 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
 1 2 3 $ ssh -T github.com kex_exchange identification: Connection closed by remote host connection closed by 20.205.243.166 port 22 I tried many solutions including changing the port to 443, turning off the VPN, and regenerating the ssh key, none of which worked.
 ...</p>
   </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-13 14:58:50 &#43;0800 &#43;0800&#39;&gt;May 13, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Liang Li</footer>
+  <footer class="entry-footer"><span title='2023-05-13 14:58:50 +0800 +0800'>May 13, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to 记录一个关于代理的小坑" href="https://liang512.github.io/post/bugterminalproxy/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>关于《死亡诗社》
+    <h2 class="entry-hint-parent">关于《死亡诗社》
     </h2>
   </header>
   <div class="entry-content">
@@ -241,13 +207,13 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
 这里 sustain 这个词用的很好，可以翻译为维持，现在所学的很多东西都是用来维持生活，而 poetry, beauty, romance, love 是我们生活的意义所在。
 ...</p>
   </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-13 09:01:41 &#43;0800 &#43;0800&#39;&gt;May 13, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;李梁</footer>
+  <footer class="entry-footer"><span title='2023-05-13 09:01:41 +0800 +0800'>May 13, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;李梁</footer>
   <a class="entry-link" aria-label="post link to 关于《死亡诗社》" href="https://liang512.github.io/post/deadpoetssociety/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>First
+    <h2 class="entry-hint-parent">First
     </h2>
   </header>
   <div class="entry-content">
@@ -255,13 +221,13 @@ $\phi$ $\psi$ $\phi\implies\psi$ T T T T F F F T T F F T The T denotes the truth
 Well, now, I’m off to write the patent.
 </p>
   </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-11 08:48:40 &#43;0800 &#43;0800&#39;&gt;May 11, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Liang Li</footer>
+  <footer class="entry-footer"><span title='2023-05-11 08:48:40 +0800 +0800'>May 11, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to First" href="https://liang512.github.io/post/first/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>
+    <h2 class="entry-hint-parent">
     </h2>
   </header>
   <div class="entry-content">
@@ -269,22 +235,34 @@ Well, now, I’m off to write the patent.
 2. What is Crowdsourcing? First of all, we review what is crowdsourcing. Crowdsourcing relies on numerous people working collaboratively to solve complex problems. For example, a company wanting to collect weather data in Shanghai can recruit individuals to report weather conditions from various districts. This approach is cost-effective, fast, and creative compared to traditional outsourcing.
 ...</p>
   </div>
-  <footer class="entry-footer">9 min&amp;nbsp;·&amp;nbsp;Me</footer>
+  <footer class="entry-footer">9 min&nbsp;·&nbsp;Me</footer>
   <a class="entry-link" aria-label="post link to " href="https://liang512.github.io/post/blockchain24/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>红楼梦第二十六回： 颦儿才貌世应希，独报幽芳出绣闺； 呜咽一声犹未了，落花满地鸟惊飞。 写人美竟能如此清新脱俗，做个注解倒显得俗气
+</p>
+  </div>
+  <footer class="entry-footer">1 min&nbsp;·&nbsp;Me</footer>
+  <a class="entry-link" aria-label="post link to " href="https://liang512.github.io/post/thestoryofthestone/idea/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://liang512.github.io/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="https://liang512.github.io/page/3/">Next&nbsp;&nbsp;»
-    </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://liang512.github.io/">Liang&#39;s Blog</a></span>
+        <span>&copy; 2024 <a href="https://liang512.github.io/">Liang&#39;s Blog</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
