@@ -9,7 +9,7 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.134.3</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Sep 2024 18:54:01 +0800</lastBuildDate>
     <atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -18,55 +18,141 @@
       <link>https://liang512.github.io/post/research/blockchainaccess_abe/</link>
       <pubDate>Sun, 22 Sep 2024 18:54:01 +0800</pubDate>
       <guid>https://liang512.github.io/post/research/blockchainaccess_abe/</guid>
-      <description>&lt;h1 id=&#34;blockchain-based-multi-authority-fine-grained-access-control-system-with-flexible-revocation&#34;&gt;Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation&lt;/h1&gt;
+      <description>&lt;!-- 总表 --&gt;
+&lt;h1 id=&#34;summary-table&#34;&gt;Summary Table&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
-IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;) 2022&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HS&lt;/strong&gt;: Hybrid Storage, &lt;strong&gt;OD&lt;/strong&gt;: Outsourced Decryption, &lt;strong&gt;PP&lt;/strong&gt;: Privacy of Policy,
+&lt;strong&gt;PA&lt;/strong&gt;: Privacy of Attributes, &lt;strong&gt;VDI&lt;/strong&gt;: Verification of Data Integrity, &lt;strong&gt;VAP&lt;/strong&gt;: Verification of Access Permission,
+&lt;strong&gt;PV&lt;/strong&gt;: Public verification, &lt;strong&gt;SA&lt;/strong&gt;: Sanitization, &lt;strong&gt;RE&lt;/strong&gt;: Revocation, &lt;strong&gt;KS&lt;/strong&gt;: Keyword Search&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This paper first proposed a KP-ABE scheme with Multiple Authorities and Flexible Revocation called &lt;strong&gt;MAFR-KP-ABE&lt;/strong&gt;. After that, the authors combine &lt;strong&gt;MAFR-KP-ABE&lt;/strong&gt; and blockchain to achieve paid data sharing access control.&lt;/p&gt;
+&lt;hr&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;HS&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;OD&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;PP&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;PA&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;VDI&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;VAP&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;PV&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;SA&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;RE&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;KS&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;User revocation &amp;#x2705;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Multi-authority &amp;#x2705;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Verification of data integrity (hash value) &amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Xiao2022&#34;&gt;Xiao2022&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VAP&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Privacy of attributes set in ciphertext &amp;#x274c;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Outsourced decryption &amp;#x274c;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Zhang2022&#34;&gt;Zhang2022&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VAP&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Guo2023&#34;&gt;Guo2023&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Li2024&#34;&gt;Li2024&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;(without CS)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;All&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Jiang2024&#34;&gt;Jiang2024&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#He2022&#34;&gt;He2022&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Yan2023&#34;&gt;Yan2023&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2753;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Zhao2023&#34;&gt;Zhao2023&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;System model: &lt;strong&gt;Hybrid storage&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Access control: KP-ABE; DU paid the fee to DO on Ethereum to achieve access permission&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- - Threat model:  --&gt;
-  &lt;!-- - :white_check_mark: user revocation; multi-authority; Verification of data integrity (check if the hash value of the decrypted data is the same as the hash value recorded on the blockchain); 
-  - :x: privacy of attributes set in ciphertext; outsourced decryption;  --&gt;
-&lt;ul&gt;
-&lt;li&gt;DO encrypts data using a symmetric encryption algorithm and further encrypts the symmetric key with ABE algorithm. DO uploads data ciphertext and key ciphertext to &lt;strong&gt;CSP&lt;/strong&gt;, and then uploads data sharing information on &lt;strong&gt;Ethereum&lt;/strong&gt; (attributes set, hash value of the shared data, location of the shared data in CSP and information about fees).&lt;/li&gt;
-&lt;li&gt;DU pays DO on Ethereum based on data sharing information. Then, DU request decryption keys from Attribute Authorities (AAs). Each AA verifies the payment transaction and sends the decryption key to the DU.&lt;/li&gt;
-&lt;li&gt;DU searches the data according to data sharing information. Anyone can request ciphertext from CSP.&lt;/li&gt;
-&lt;li&gt;Question&amp;#x2753;
-&lt;ul&gt;
-&lt;li&gt;The ciphertexts must be re-encrypt after user revocation.&lt;/li&gt;
-&lt;li&gt;Algorithm $\textbf{KeyGen}$ seems modify the public key of the authority. So do they need to re-encrypt the ciphertext every time they run $\textbf{KeyGen}$?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;a-hybrid-blockchain-edge-architecture-for-electronic-health-record-management-with-attribute-based-cryptographic-mechanisms&#34;&gt;A Hybrid Blockchain-Edge Architecture for Electronic Health Record Management with Attribute-based Cryptographic Mechanisms&lt;/h1&gt;
+&lt;h1 id=&#34;span-idxiao2022blockchain-based-multi-authority-fine-grained-access-control-system-with-flexible-revocationspan&#34;&gt;&lt;span id=&#34;Xiao2022&#34;&gt;Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation&lt;/span&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Hao Guo, Member, IEEE, Wanxin Li*, Member, IEEE, Mark Nejad, Member, IEEE, and Chien-Chung Shen, Member, IEEE
-IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT 2022&lt;/p&gt;</description>
+&lt;p&gt;Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
+IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;) 2022&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add a Peer Node to an Organization</title>
