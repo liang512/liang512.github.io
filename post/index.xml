@@ -9,7 +9,7 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.136.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Sep 2024 18:54:01 +0800</lastBuildDate>
     <atom:link href="https://liang512.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -23,13 +23,15 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;HS&lt;/strong&gt;: Hybrid Storage, &lt;strong&gt;OD&lt;/strong&gt;: Outsourced Decryption, &lt;strong&gt;PP&lt;/strong&gt;: Privacy of Policy,
 &lt;strong&gt;PA&lt;/strong&gt;: Privacy of Attributes, &lt;strong&gt;VDI&lt;/strong&gt;: Verification of Data Integrity, &lt;strong&gt;VAP&lt;/strong&gt;: Verification of Access Permission,
-&lt;strong&gt;PV&lt;/strong&gt;: Public verification, &lt;strong&gt;SA&lt;/strong&gt;: Sanitization, &lt;strong&gt;RE&lt;/strong&gt;: Revocation, &lt;strong&gt;KS&lt;/strong&gt;: Keyword Search&lt;/p&gt;
+&lt;strong&gt;PV&lt;/strong&gt;: Public verification, &lt;strong&gt;SA&lt;/strong&gt;: Sanitization, &lt;strong&gt;RE&lt;/strong&gt;: Revocation, &lt;strong&gt;KS&lt;/strong&gt;: Keyword Search
+&lt;strong&gt;VT&lt;/strong&gt;: Verification of Transformation by CS&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Paper&lt;/th&gt;
           &lt;th style=&#34;text-align: center&#34;&gt;HS&lt;/th&gt;
           &lt;th style=&#34;text-align: center&#34;&gt;OD&lt;/th&gt;
           &lt;th style=&#34;text-align: center&#34;&gt;PP&lt;/th&gt;
@@ -44,6 +46,7 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Xiao2022&#34;&gt;Xiao2022&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
@@ -57,6 +60,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Zhang2022&#34;&gt;Zhang2022&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
@@ -70,6 +74,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Guo2023&#34;&gt;Guo2023&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
@@ -83,6 +88,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;4&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Li2024&#34;&gt;Li2024&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;(without CS)&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
@@ -90,12 +96,13 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;All&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;both&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Jiang2024&#34;&gt;Jiang2024&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
@@ -109,6 +116,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;6&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#He2022&#34;&gt;He2022&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
@@ -122,6 +130,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;7&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Yan2023&#34;&gt;Yan2023&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
@@ -135,6 +144,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Zhao2023&#34;&gt;Zhao2023&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
@@ -148,6 +158,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;9&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Fan2020&#34;&gt;Fan2020&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
@@ -156,6 +167,20 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://liang512.github.io/post/research/blockchainaccess_abe/#Cui2020&#34;&gt;Cui2020&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x2705;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;both&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&amp;#x274c;&lt;/td&gt;
