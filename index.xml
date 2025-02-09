@@ -9,10 +9,31 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Oct 2024 19:03:40 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 22:51:58 +0800</lastBuildDate>
     <atom:link href="https://liang512.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revocation</title>
+      <link>https://liang512.github.io/post/research/revocation/</link>
+      <pubDate>Thu, 23 Jan 2025 22:51:58 +0800</pubDate>
+      <guid>https://liang512.github.io/post/research/revocation/</guid>
+      <description>&lt;h1 id=&#34;灵活撤销&#34;&gt;灵活撤销&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Direct revocation
+The DO encrypts files with a separate revocation list (as a policy), preventing revoked users from decrypting the ciphertext while non-revoked DUs remain unaffected. However, all DOs must maintain an ever-growing revocation list, increasing ciphertext size over time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Limitations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ciphertext size is linearly increasing with the number of revoked users.&lt;/li&gt;
+&lt;li&gt;Users are represented with a unique ID. No anonymous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Indirect revocation
+A timestamp is embedded in the ciphertext, and the KGC periodically updates the private keys of non-revoked DUs. Revoked DUs cannot obtain valid key updates to decrypt future ciphertexts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Q: The revoked users can decrypt past ciphertexts they were originally allowed to.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>NewProblem</title>
       <link>https://liang512.github.io/post/research/newproblem/</link>
@@ -31,8 +52,7 @@
 &lt;p&gt;&lt;strong&gt;HS&lt;/strong&gt;: Hybrid Storage, &lt;strong&gt;OD&lt;/strong&gt;: Outsourced Decryption, &lt;strong&gt;PP&lt;/strong&gt;: Privacy of Policy,
 &lt;strong&gt;PA&lt;/strong&gt;: Privacy of Attributes, &lt;strong&gt;VDI&lt;/strong&gt;: Verification of Data Integrity, &lt;strong&gt;VAP&lt;/strong&gt;: Verification of Access Permission,
 &lt;strong&gt;PV&lt;/strong&gt;: Public verification, &lt;strong&gt;SA&lt;/strong&gt;: Sanitization, &lt;strong&gt;RE&lt;/strong&gt;: Revocation, &lt;strong&gt;KS&lt;/strong&gt;: Keyword Search
-&lt;strong&gt;VT&lt;/strong&gt;: Verification of Transformation by CS&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;strong&gt;VT&lt;/strong&gt;: Verification of Transformation by CS&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -368,8 +388,7 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
       <guid>https://liang512.github.io/friends/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangjucai.github.io/&#34;&gt;Jucai Yang&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://yangjucai.github.io/&#34;&gt;Jucai Yang&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>First</title>
@@ -403,6 +422,27 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
 &lt;h1 id=&#34;2-what-is-crowdsourcing&#34;&gt;2. What is Crowdsourcing?&lt;/h1&gt;
 &lt;p&gt;First of all, we review what is crowdsourcing.
 Crowdsourcing relies on numerous people working collaboratively to solve complex problems. For example, a company wanting to collect weather data in Shanghai can recruit individuals to report weather conditions from various districts. This approach is cost-effective, fast, and creative compared to traditional outsourcing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://liang512.github.io/post/research/meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang512.github.io/post/research/meeting/</guid>
+      <description>&lt;h1 id=&#34;灵活撤销&#34;&gt;灵活撤销&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Direct revocation
+The DO encrypts files with a separate revocation list (as a policy), preventing revoked users from decrypting the ciphertext while non-revoked DUs remain unaffected. However, all DOs must maintain an ever-growing revocation list, increasing ciphertext size over time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Limitations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ciphertext size is linearly increasing with the number of revoked users.&lt;/li&gt;
+&lt;li&gt;Users are represented with a unique ID. No anonymous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Indirect revocation
+A timestamp is embedded in the ciphertext, and the KGC periodically updates the private keys of non-revoked DUs. Revoked DUs cannot obtain valid key updates to decrypt future ciphertexts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Q: The revoked users can decrypt past ciphertexts they were originally allowed to.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

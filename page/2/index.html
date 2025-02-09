@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.138.0"><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.143.1"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -188,6 +188,27 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Papers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Keyword-based matching Proxy-Free Privacy-Preserving Task Matching with Efficient Revocation in Crowdsourcing 1 这篇文章提出了一个无需代理重加密的基于关键字的任务匹配模型，支持用户撤销。作者公布代码。
+基本模型是经典的基于可搜索加密的关键字匹配模型，之后加入了 Server-Local Revocation (SLR)，实现用户撤销的思想很简单：服务器维护一个撤销用户列表 Revocation List (RL)，当有用户离开系统时，将该用户的相关信息存入RL实现撤销，在每次执行匹配算法时，服务器会先验证改用户是否在RL在，如果在RL中，则此次搜索终止，如不在RL中，说明此次搜索合法，进行匹配操作。
+之后为了减少RL的存储开销，作者提出了Global Revocation (GR)，为密钥、密文、搜索陷门加入了版本号（version number），系统周期性地执行$ReKeyGen$算法，清空RL，重新生成公钥、主私钥和密文更新密钥（用来更新之前版本的密文），并为worker分发新的密钥。
+优点：撤销机制简单
+缺点：每次匹配均需进行两次pairing操作以检查用户权限；在 GR 中，密钥机构需要周期性地上线执行$ReKeyGen$算法，即使是在RL为空时？（作者没有考虑这一点）。
+思考：学习到了撤销机制的实现方法：维护撤销用户列表和版本号。
+📝 Note: 写文章思路：先写出一个基础方案，之后进行扩展，本文在基础匹配方案上扩展了用户撤销机制。先写SLR，然后针对 SLR 中RL的存储开销问题，提出GR，让系统定期清空RL，引入版本号。
+ABE Attribute-Based Encryption with Publicly Verifiable Outsourced Decryption Transform算法输出的不是ElGamal形式的密文，而是把中间计算过程中的配对值输出。 验证者通过 sampling technique 随机选择pairing results进行验证。 Achieving public verification by combining sampling technique and game theory.
+Multi-Keyword Searchable and Verifiable Attribute-Based Encryption Over Cloud Data 只支持合取的关键字查询；需要公布一个关键字集合之间的映射；使用签名验证密文的complete； 是否可以做多关键字的检索 without bilinear pairing ?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-04 16:15:02 +0800 +0800'>June 4, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Liang</footer>
+  <a class="entry-link" aria-label="post link to Papers" href="https://liang512.github.io/post/papers/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Introduction to Mathematical Thinking Week2
     </h2>
   </header>
@@ -258,20 +279,6 @@ Well, now, I’m off to write the patent.
   <footer class="entry-footer"><span title='2023-05-11 08:48:40 +0800 +0800'>May 11, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Liang Li</footer>
   <a class="entry-link" aria-label="post link to First" href="https://liang512.github.io/post/first/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>1. Intro Hi, everyone. I’m Liang Li. It’s really a great pleasure to be here and I am very happy to introduce our paper: Bilateral Secure and Decentralized Crowdsourcing Task Matching Atop Consortium Blockchain. The co-authors include Haiqin Wu…
-2. What is Crowdsourcing? First of all, we review what is crowdsourcing. Crowdsourcing relies on numerous people working collaboratively to solve complex problems. For example, a company wanting to collect weather data in Shanghai can recruit individuals to report weather conditions from various districts. This approach is cost-effective, fast, and creative compared to traditional outsourcing.
-...</p>
-  </div>
-  <footer class="entry-footer">9 min&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to " href="https://liang512.github.io/post/blockchain24/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://liang512.github.io/">
@@ -284,7 +291,7 @@ Well, now, I’m off to write the patent.
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://liang512.github.io/">Liang&#39;s Blog</a></span> · 
+        <span>&copy; 2025 <a href="https://liang512.github.io/">Liang&#39;s Blog</a></span> · 
 
     <span>
         Powered by
