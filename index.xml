@@ -9,10 +9,17 @@
       <url>https://liang512.github.io/papermod-cover.png</url>
       <link>https://liang512.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jan 2025 22:51:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 15:26:15 +0800</lastBuildDate>
     <atom:link href="https://liang512.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attribute-Based Keyword Search (ABKS), Revisited</title>
+      <link>https://liang512.github.io/post/research/abks/abks/</link>
+      <pubDate>Sat, 01 Mar 2025 15:26:15 +0800</pubDate>
+      <guid>https://liang512.github.io/post/research/abks/abks/</guid>
+      <description>探讨ABKS的实现方式</description>
+    </item>
     <item>
       <title>Revocation</title>
       <link>https://liang512.github.io/post/research/revocation/</link>
@@ -284,7 +291,7 @@ A timestamp is embedded in the ciphertext, and the KGC periodically updates the 
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&#34;span-idxiao2022blockchain-based-multi-authority-fine-grained-access-control-system-with-flexible-revocationspan&#34;&gt;&lt;span id=&#34;Xiao2022&#34;&gt;Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;blockchain-based-multi-authority-fine-grained-access-control-system-with-flexible-revocation&#34;&gt;&lt;span id=&#34;Xiao2022&#34;&gt;Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation&lt;/span&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
 IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;) 2022&lt;/p&gt;</description>
@@ -342,23 +349,23 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
     </item>
     <item>
       <title>Sanitizable Encryption</title>
-      <link>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</link>
+      <link>https://liang512.github.io/post/research/sanitizable_abe/sanitizableencryption/</link>
       <pubDate>Mon, 24 Jul 2023 14:58:50 +0800</pubDate>
-      <guid>https://liang512.github.io/post/sanitizable_abe/sanitizableencryption/</guid>
+      <guid>https://liang512.github.io/post/research/sanitizable_abe/sanitizableencryption/</guid>
       <description>记录最近看到的一个新的概念：Sanitizable Encryption</description>
     </item>
     <item>
       <title>Papers</title>
-      <link>https://liang512.github.io/post/papers/</link>
+      <link>https://liang512.github.io/post/research/papers/</link>
       <pubDate>Sun, 04 Jun 2023 16:15:02 +0800</pubDate>
-      <guid>https://liang512.github.io/post/papers/</guid>
+      <guid>https://liang512.github.io/post/research/papers/</guid>
       <description>论文阅读记录</description>
     </item>
     <item>
       <title>Introduction to Mathematical Thinking Week2</title>
-      <link>https://liang512.github.io/post/mathematical_thinking_week2/</link>
+      <link>https://liang512.github.io/post/mathnotes/mathematical_thinking_week2/</link>
       <pubDate>Tue, 23 May 2023 21:23:23 +0800</pubDate>
-      <guid>https://liang512.github.io/post/mathematical_thinking_week2/</guid>
+      <guid>https://liang512.github.io/post/mathnotes/mathematical_thinking_week2/</guid>
       <description>Implication and Equivalence</description>
     </item>
     <item>
@@ -370,16 +377,16 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
     </item>
     <item>
       <title>记录一个关于代理的小坑</title>
-      <link>https://liang512.github.io/post/bugterminalproxy/</link>
+      <link>https://liang512.github.io/post/computer/bugterminalproxy/</link>
       <pubDate>Sat, 13 May 2023 14:58:50 +0800</pubDate>
-      <guid>https://liang512.github.io/post/bugterminalproxy/</guid>
+      <guid>https://liang512.github.io/post/computer/bugterminalproxy/</guid>
       <description>耗费我好长时间555</description>
     </item>
     <item>
       <title>关于《死亡诗社》</title>
-      <link>https://liang512.github.io/post/deadpoetssociety/</link>
+      <link>https://liang512.github.io/post/essay/deadpoetssociety/</link>
       <pubDate>Sat, 13 May 2023 09:01:41 +0800</pubDate>
-      <guid>https://liang512.github.io/post/deadpoetssociety/</guid>
+      <guid>https://liang512.github.io/post/essay/deadpoetssociety/</guid>
       <description>Carpe diem</description>
     </item>
     <item>
@@ -414,14 +421,24 @@ IEEE TRANSACTIONS ON SERVICES COMPUTING (TSC &lt;strong&gt;CCF A&lt;/strong&gt;)
     </item>
     <item>
       <title></title>
-      <link>https://liang512.github.io/post/blockchain24/</link>
+      <link>https://liang512.github.io/post/englishlearning/blockchain24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://liang512.github.io/post/blockchain24/</guid>
+      <guid>https://liang512.github.io/post/englishlearning/blockchain24/</guid>
       <description>&lt;h1 id=&#34;1-intro&#34;&gt;1. Intro&lt;/h1&gt;
 &lt;p&gt;Hi, everyone. I&amp;rsquo;m Liang Li. It’s really a great pleasure to be here and I am very happy to introduce our paper: &lt;strong&gt;Bilateral Secure and Decentralized Crowdsourcing Task Matching Atop Consortium Blockchain.&lt;/strong&gt; The co-authors include Haiqin Wu&amp;hellip;&lt;/p&gt;
 &lt;h1 id=&#34;2-what-is-crowdsourcing&#34;&gt;2. What is Crowdsourcing?&lt;/h1&gt;
 &lt;p&gt;First of all, we review what is crowdsourcing.
 Crowdsourcing relies on numerous people working collaboratively to solve complex problems. For example, a company wanting to collect weather data in Shanghai can recruit individuals to report weather conditions from various districts. This approach is cost-effective, fast, and creative compared to traditional outsourcing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://liang512.github.io/post/essay/beautiful/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liang512.github.io/post/essay/beautiful/</guid>
+      <description>&lt;p&gt;红楼梦第二十六回：
+颦儿才貌世应希，独报幽芳出绣闺；
+呜咽一声犹未了，落花满地鸟惊飞。
+写人美竟能如此清新脱俗，做个注解倒显得俗气&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -443,16 +460,6 @@ The DO encrypts files with a separate revocation list (as a policy), preventing 
 A timestamp is embedded in the ciphertext, and the KGC periodically updates the private keys of non-revoked DUs. Revoked DUs cannot obtain valid key updates to decrypt future ciphertexts.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Q: The revoked users can decrypt past ciphertexts they were originally allowed to.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://liang512.github.io/post/thestoryofthestone/idea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://liang512.github.io/post/thestoryofthestone/idea/</guid>
-      <description>&lt;p&gt;红楼梦第二十六回：
-颦儿才貌世应希，独报幽芳出绣闺；
-呜咽一声犹未了，落花满地鸟惊飞。
-写人美竟能如此清新脱俗，做个注解倒显得俗气&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
